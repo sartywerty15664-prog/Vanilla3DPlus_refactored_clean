@@ -118,13 +118,13 @@ public final class AtmosphereRenderer {
                     );
 
             boolean naturalGround =
-                    state.is(Blocks.GRASS_BLOCK)
-                            || state.is(Blocks.DIRT)
-                            || state.is(Blocks.COARSE_DIRT)
-                            || state.is(Blocks.ROOTED_DIRT)
-                            || state.is(Blocks.MOSS_BLOCK)
-                            || state.is(Blocks.SAND)
-                            || state.is(Blocks.RED_SAND);
+                    atmosphereState.is(Blocks.GRASS_BLOCK)
+                            || atmosphereState.is(Blocks.DIRT)
+                            || atmosphereState.is(Blocks.COARSE_DIRT)
+                            || atmosphereState.is(Blocks.ROOTED_DIRT)
+                            || atmosphereState.is(Blocks.MOSS_BLOCK)
+                            || atmosphereState.is(Blocks.SAND)
+                            || atmosphereState.is(Blocks.RED_SAND);
 
             if (!naturalGround) {
                 return;

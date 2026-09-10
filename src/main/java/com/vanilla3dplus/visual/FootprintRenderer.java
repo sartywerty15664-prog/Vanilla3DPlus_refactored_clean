@@ -49,24 +49,24 @@ public final class FootprintRenderer {
                     level.getBlockState(below);
 
             boolean sand =
-                    state.is(Blocks.SAND)
+                    playerState.is(Blocks.SAND)
                             || state.is(Blocks.RED_SAND);
 
             boolean dirt =
-                    state.is(Blocks.DIRT)
-                            || state.is(Blocks.COARSE_DIRT)
-                            || state.is(Blocks.ROOTED_DIRT);
+                    playerState.is(Blocks.DIRT)
+                            || playerState.is(Blocks.COARSE_DIRT)
+                            || playerState.is(Blocks.ROOTED_DIRT);
 
             boolean gravel =
-                    state.is(Blocks.GRAVEL);
+                    playerState.is(Blocks.GRAVEL);
 
             boolean snow =
-                    state.is(Blocks.SNOW_BLOCK)
-                            || state.is(Blocks.SNOW);
+                    playerState.is(Blocks.SNOW_BLOCK)
+                            || playerState.is(Blocks.SNOW);
 
             boolean grass =
-                    state.is(Blocks.GRASS_BLOCK)
-                            || state.is(Blocks.MOSS_BLOCK);
+                    playerState.is(Blocks.GRASS_BLOCK)
+                            || playerState.is(Blocks.MOSS_BLOCK);
 
             if (sand || dirt || gravel || grass) {
 
