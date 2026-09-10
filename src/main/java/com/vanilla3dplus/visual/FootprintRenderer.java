@@ -50,7 +50,7 @@ public final class FootprintRenderer {
 
             boolean sand =
                     playerState.is(Blocks.SAND)
-                            || state.is(Blocks.RED_SAND);
+                            || playerState.is(Blocks.RED_SAND);
 
             boolean dirt =
                     playerState.is(Blocks.DIRT)
