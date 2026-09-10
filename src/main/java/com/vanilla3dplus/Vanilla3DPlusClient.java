@@ -1,5 +1,16 @@
 package com.vanilla3dplus;
 
+import com.vanilla3dplus.visual.AtmosphereRenderer;
+import com.vanilla3dplus.visual.CloudRenderer;
+import com.vanilla3dplus.visual.FootprintRenderer;
+import com.vanilla3dplus.visual.HudVisualRenderer;
+import com.vanilla3dplus.visual.MaterialEffects;
+import com.vanilla3dplus.visual.RainEffects;
+import com.vanilla3dplus.visual.RainbowRenderer;
+import com.vanilla3dplus.visual.ReliefRenderer;
+import com.vanilla3dplus.visual.VisualState;
+import com.vanilla3dplus.visual.WaterEffects;
+import com.vanilla3dplus.visual.WeaponEffects;
 import com.mojang.blaze3d.platform.InputConstants;
 import com.vanilla3dplus.config.Vanilla3DPlusConfig;
 import com.vanilla3dplus.gui.Vanilla3DPlusConfigScreen;

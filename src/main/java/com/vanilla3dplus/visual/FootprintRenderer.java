@@ -45,7 +45,7 @@ public final class FootprintRenderer {
                     player.blockPosition()
                             .below();
 
-            var state =
+            var playerState =
                     level.getBlockState(below);
 
             boolean sand =

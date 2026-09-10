@@ -112,7 +112,7 @@ public final class AtmosphereRenderer {
             BlockPos pos =
                     player.blockPosition();
 
-            var state =
+            var atmosphereState =
                     level.getBlockState(
                             pos.below()
                     );
